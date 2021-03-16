@@ -1,0 +1,3 @@
+[submodule "MCBVanillaResourcePack"]
+	path = MCBVanillaResourcePack
+	url = git@github.com:ZtechNetwork/MCBVanillaResourcePack.git

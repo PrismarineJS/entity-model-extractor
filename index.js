@@ -187,7 +187,7 @@ async function main () {
 
   const textureFolder = '../minecraft-assets/data/1.16.4/'
   // Patch texture paths
-  const texturePathMapping = {}
+  const texturePathMapping = require('./texturemap.json')
   for (const e of Object.values(entities)) {
     for (const name of Object.keys(e.textures)) {
       let texture = e.textures[name]
